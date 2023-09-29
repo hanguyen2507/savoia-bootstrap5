@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/favicon.ico"/>
+    <title>Savoia Pastry Shoppe | Wedding Cakes, Cookies Rochester NY</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="header-wrapper">
+        <div class="promo-bar text-bg-dark p-4 text-center">
+          <h4 class="text-center">
+            <span class="me-3">We now ship cookie trays <u>nationwide! </u>Place your shipping order online today.</span>
+            <a href="#" role="button" class="btn btn-primary text-white">Order Now</a>
+          </h4>
+        </div>
+        <!--Header-->
+        <header class="header">
+          <div class="header-top d-flex flex-row justify-content-between align-items-center p-md-3 d-xxl-none">
+            <div class="header-top__logo d-none d-md-flex">
+              <a href="#">
+                <img src="img/savoia-pastry-logo.png" alt="Savoia Logo">
+              </a>
+            </div>
+            <div class="header-top__cta d-flex justify-content-center ms-auto align-items-center">
+              <i class="fa fa-user me-4 accordion fs-3 text-dark d-none d-md-flex"></i>
+              <div class="header__search-form ">
+                <form class="d-flex me-4 d-none d-md-flex" role="search">
+                  <input type="search" placeholder="Seach" class="form-control" aria-label="Search">
+                  <button class="btn btn-primary text-dark fs-4 border-0">
+                    <i class="fas fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="header__shopping-cart">
+                <a href="#" class="btn btn-dark text-bg-dark d-none d-md-flex">
+                  <i class="far fa-cart-shopping fs-3"></i>
+                  <span class="d-inline-block">[0]</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Navigation-->
+          <div>
+            <nav class="main-navigation navbar p-0 navbar-expand-md" role="navigation">
+              <div class="navbar-header d-flex justify-content-between flex-grow-1 align-items-center d-md-none">
+                <div class="main-navigation__mobile-logo d-flex">
+                  <button type="button" class="navbar-toggler border-0 p-0 me-4" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="flase" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="header-top__logo navbar-brand">
+                    <a href="#">
+                      <img src="img/savoia-pastry-logo.png" alt="Savoia Logo" class="w-50">
+                    </a>
+                  </div>
+                </div>
+                <div class="main-navigation__mobile-cta d-flex">
+                  <i class="fas fa-magnifying-glass fs-2 me-3 text-white "></i>
+                  <i class="fa fa-user me-3 accordion fs-2 text-white "></i>
+                  <i class="fa fa-bag-shopping fs-2 text-white "></i>
+                </div>
+              </div>
+              <div class="m-3 header-top__logo d-none d-xxl-flex d-none">
+                <a href="#">
+                  <img src="img/savoia-pastry-logo.png" alt="Savoia Logo">
+                </a>
+              </div>
+              <div id="navbar" class="navbar-collapse justify-content-md-center collapse mt-2 mx-0">
+                <ul class="nav mb-2 mb-lg-0 navbar-nav text-md-center align-items-center justify-content-center">
+                  <li id="dropdown-1" class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active-nav" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Order Online
+                    </a>
+                    <ul class="dropdown-menu border-0">
+                      <li><a href="#" class="dropdown-item">Bread & Pizza</a></li>
+                      <li><a href="cakes-cupcake.html" class="dropdown-item">Cakes & Cupcakes</a></li>
+                      <li><a href="#" class="dropdown-item">Cookies</a></li>
+                      <li><a href="#" class="dropdown-item">Pastries</a></li>
+                      <li><a href="#" class="dropdown-item">Pies</a></li>
+                      <li><a href="#" class="dropdown-item">Treats</a></li>
+                      <li><a href="#" class="dropdown-item">Merch</a></li>
+                      <li><a href="#" class="dropdown-item">Nationwide Shipping</a></li>
+                      <li><a href="#" class="dropdown-item">DoorDash</a></li>
+                      <li><a href="#" class="dropdown-item">GrubHub</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-separator"></li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Birthdays</a>
+                  </li>
+                  <li id="dropdown-2" class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Weddings
+                    </a>
+                    <ul class="dropdown-menu border-0">
+                      <li><a href="#" class="dropdown-item pb-3 ms-3">Information & Pricing</a></li>
+                      <li><a href="#" class="dropdown-item pb-3 ms-3">Wedding FAQs</a></li>
+                      <li><a href="#" class="dropdown-item ms-3">Wedding Gallery</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-separator"></li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Specials</a>
+                  </li>
+                  <li class="nav-separator"></li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Gallery</a>
+                  </li>
+                  <li class="nav-separator"></li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Careers</a>
+                  </li>
+                  <li class="nav-separator"></li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="xxxl-screen-nav m-3 me-0 main-navigation__mobile-cta d-xxl-flex d-none justify-content-center align-items-center">
+                <i class="fa fa-user me-3 accordion fs-2 text-black me-5"></i>
+                <i class="fas fa-magnifying-glass fs-4 me-5 text-bg-primary p-2"></i>
+                <div class="shopping-cart-xxxl text-bg-dark px-3 py-2">
+                  <i class="fa fa-bag-shopping fs-2 "></i>
+                  <smal class="d-inline-block">[0]</smal>
+                </div>
+              </div>
+            </nav>
+          </div>  
+         
+        </header>
+        <!--Content-->
+        <div class="content-wrapper">
+          <div class="content">
+            <section class="splash position-relative">
+              <video src="https://media.cmsmax.com/aw1hz3lrduulbhxv0jo9a/savoia-banner-vid.mp4" autoplay="autoplay" loop muted type="video/mp4" class="w-100 object-fit-cover position-relative"></video>
+              <div class="splash__content position-absolute ">
+                <img src="img/est-1929.png" alt="a black and white sign" class="d-block img-fluid mx-auto opacity-100">
+                <p>
+                  From custom cakes to tier cakes, to dessert cups and more – here at Savoia, we create custom desserts for any occasion.
+                </p>
+              </div>
+            </section>
+            <section class="story">
+              <div class="container">
+                <div class="d-md-flex d-sm-block align-items-center gap-lg-5">
+                  <div class="text-holder text-center">
+                    <span class="text-uppercase">
+                      <strong>our story</strong>
+                    </span>
+                    <h2 class="text-black mt-3 mb-2">Welcome to Savoia</h2>
+                    <p class="story-content mb-0 fw-light px-3">
+                      Opening in March of 1929, Savoia’s has gained a reputation throughout the region for their excellent Italian pastries, cookies, tier cakes and “all occasion” cakes. Proprietors, Kathy and George Privitera welcome you to visit and enjoy the sweet tradition of Savoia’s.
+                    </p>
+                  </div>
+                  <div class="img-holder">
+                    <img src="img/savoia-dingdong-homepage.jpg" alt="a chocolate cake with a white frosting and chocolate sprinkles" class="img-fluid mx-auto">
+                  </div>
+                </div>
+              </div>
+            </section>
+           
+            <section class="services">
+              <div class="item-holder d-lg-flex d-md-block justify-content-between gap-3">
+                <div class="item text-center position-relative mb-3">
+                  <img src="img/thumb-cookies.jpg" alt="sweets" class="services-img d-block img-fluid mx-auto">
+                  <h2 class="title position-absolute d-xl-inline-block m-0 d-none">
+                    <a href="#" class="text-decoration-none text-white">Cookies</a>
+                  </h2>
+                  <div class="text-container text-center">
+                    <h3 class="text-black fw-700">Cookies</h3>
+                    <p>Using recipes handed down through the generations and the finest ingredients, these handmade specialties have authentic Old World flavor and flair.</p>
+                    <a href="#" class="btn btn-primary text-white fw-light">ORDER ONLINE</a>
+                  </div>
+                </div>
+
+                <div class="item text-center position-relative mb-3">
+                  <img src="img/thumb-hand-crafted-cake.jpg" alt="a cake with strawberries on top" class="services-img d-block img-fluid mx-auto">
+                  <h2 class="title position-absolute d-xl-inline-block m-0 d-none">
+                    <a href="#" class="text-decoration-none text-white">Hand Crafted Cakes</a>
+                  </h2>
+                  <div class="text-container text-center">
+                    <h3 class="text-black fw-700">Hand Crafted Cakes</h3>
+                    <p>Our Specialty Cakes are hand crafted and fresh daily. They are made from the finest quality ingredients. All Specialty Cakes are available daily. All cakes are made in 8” and 10”.</p>
+                    <a href="#" class="btn btn-primary text-white fw-light">ORDER ONLINE</a>
+                  </div>
+                </div>
+
+                <div class="item text-center position-relative mb-3">
+                  <img src="img/thumb-pastries.jpg" alt="baked goods" class="services-img d-block img-fluid mx-auto">
+                  <h2 class="title position-absolute d-xl-inline-block m-0 d-none">
+                    <a href="#" class="text-decoration-none text-white">Patries</a>
+                  </h2>
+                  <div class="text-container text-center">
+                    <h3 class="text-black fw-700">Patries</h3>
+                    <p>Using recipes handed down through the generations and the finest ingredients, these handmade specialties have authentic Old World flavor and flair.</p>
+                    <a href="#" class="btn btn-primary text-white fw-light">ORDER ONLINE</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-holder d-lg-flex d-md-block justify-content-between gap-3">
+                <div class="item text-center position-relative mb-3">
+                  <img src="img/thumb-delicious-pies.jpg" alt="a chocolate cake with chocolate frosting" class="services-img d-block img-fluid mx-auto">
+                  <h2 class="title position-absolute d-xl-inline-block m-0 d-none">
+                    <a href="#" class="text-decoration-none text-white">Delicious Pies</a>
+                  </h2>
+                  <div class="text-container text-center">
+                    <h3 class="text-black fw-700">Delicious Pies</h3>
+                    <p>Fresh homemade pies for every season and occasion</p>
+                    <a href="#" class="btn btn-primary text-white fw-light">ORDER ONLINE</a>
+                  </div>
+                </div>
+
+                <div class="item text-center position-relative mb-3">
+                  <img src="img/thumb-treats.jpg" alt="a cake with strawberries on top" class="services-img d-block img-fluid mx-auto">
+                  <h2 class="title position-absolute d-xl-inline-block m-0 d-none">
+                    <a href="#" class="text-decoration-none text-white">Treats</a>
+                  </h2>
+                  <div class="text-container text-center">
+                    <h3 class="text-black fw-700">Treats</h3>
+                    <p>Find a variety of specialty goods from cake pops to lemon ice and more!</p>
+                    <a href="#" class="btn btn-primary text-white fw-light">ORDER ONLINE</a>
+                  </div>
+                </div>
+
+                <div class="item text-center position-relative mb-3">
+                  <img src="img/thumb-fresh-breads-and-pizza.jpg" alt="baked goods" class="services-img d-block img-fluid mx-auto">
+                  <h2 class="title position-absolute d-xl-inline-block m-0 d-none">
+                    <a href="#" class="text-decoration-none text-white">Fresh Breads & Pizza</a>
+                  </h2>
+                  <div class="text-container text-center">
+                    <h3 class="text-black fw-700">Fresh Breads & Pizza</h3>
+                    <p>As you approach the front door of Savoia Pastry Shoppe, the aroma of our fresh baked breads, pizza, and pastries dazzles your taste buds.</p>
+                    <a href="#" class="btn btn-primary text-white fw-light">ORDER ONLINE</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="featured-products">
+              <div class="container text-center">
+                <div class="text-uppercase">
+                  <strong>We recommend</strong>
+                </div>
+                <h1 class="text-black mt-3" role="heading">Featured Products</h1>
+                <div class="featured-products">
+                  <div class="row align-items-start">
+                    <div class="col-6 col-md-3 product-list-item text-center mb-3">
+                      <div class="product-list-item-img product-image-cover">
+                        <a href="#">
+                          <img src="img/savoia-54-bread.jpg" alt="Old Fashioned Italian" class="img-fluid mx-auto d-block object-fit-cover">
+                        </a>
+                      </div>
+                      <h4 class="product-list-item-title my-2">
+                        <a href="#" class="text-decoration-none text-black">Old Fashioned Italian</a>
+                      </h4>
+                      <div class="price fw-bold text-primary">$3.50</div>
+                    </div>
+
+                    <div class="col-6 col-md-3 product-list-item text-center mb-3">
+                      <div class="product-list-item-img product-image-cover">
+                        <a href="#">
+                          <img src="img/product-tiramisu-cake.jpg" alt="Tiramisu Cake" class="img-fluid mx-auto d-block object-fit-cover">
+                        </a>
+                      </div>
+                      <h4 class="product-list-item-title my-2">
+                        <a href="#" class="text-decoration-none text-black">Tiramisu Cake</a>
+                      </h4>
+                      <div class="price fw-bold text-primary">$33.35</div>
+                    </div>
+
+                    <div class="col-6 col-md-3 product-list-item text-center mb-3">
+                      <div class="product-list-item-img product-image-cover">
+                        <a href="#">
+                          <img src="img/fullsweets-resize.jpg" alt="Full Sweet Table" class="img-fluid mx-auto d-block object-fit-cover">
+                        </a>
+                      </div>
+                      <h4 class="product-list-item-title my-2">
+                        <a href="#" class="text-decoration-none text-black">Full Sweet Table</a>
+                      </h4>
+                      <div class="price fw-bold text-primary">$74.40</div>
+                    </div>
+
+                    <div class="col-6 col-md-3 product-list-item text-center mb-3">
+                      <div class="product-list-item-img product-image-cover">
+                        <a href="#">
+                          <img src="img/product-chocolate-cream-pie.jpg" alt="Chocolate Cream Pie" class="img-fluid mx-auto d-block object-fit-cover">
+                        </a>
+                      </div>
+                      <h4 class="product-list-item-title my-2">
+                        <a href="#" class="text-decoration-none text-black">Chocolate Cream Pie</a>
+                      </h4>
+                      <div class="price fw-bold text-primary">$16.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="wedding">
+              <div class="container">
+                <div class="col-md-6 text-center">
+                  <div class="wedding__text-content text-white fw-light">
+                    <h1 class="fw-light mb-3">Weddings</h1>
+                    <p>Savoia’s wedding cakes are a tradition to the Rochester area. We have built a reputation as master bakers, using premium ingredients. We offer a variety of traditional cake flavors and specialty fillings. Each cake is a once-in-a-lifetime, luscious creation made to your personal specifications.</p>
+                  </div>
+                </div>
+                <img src="img/white-part.png" alt="a black and white screen" class="d-block img-fluid mx-auto position-absolute bottom-0">
+              </div>
+            </section>
+
+            <section class="testimonial">
+              <div class="container">
+                <p class="text-center mb-0">
+                  <strong class="text-uppercase">testimonials</strong>
+                </p>
+                <h1 class="fw-light mb-5 text-black text-center">What People are Saying</h1>
+                <div class="testimonial__holder justify-content-between row">
+                  <div class="col-xl-3 col-md-6 col-sm-12 testimonial__item mb-4 px-4 py-4">
+                    <p class="fw-light fs-5">
+                      "I drive over 30 minutes to come to this bakery. Everything is beyond delicious and so fresh! There’s cookies, cakes, breads, pastries and much more. Definitely worth the drive, you won’t be disappointed!"
+                    </p>
+                    <p class="name my-0">
+                      <strong class="text-black fs-5">Marissa</strong>
+                    </p>
+                  </div>
+
+                  <div class="col-xl-3 col-md-6 col-sm-12 testimonial__item mb-4 px-4 py-4">
+                    <p class="fw-light fs-5">
+                      "Always love their pastries. I am becoming addicted to their bread pudding though my blood sugar would advise me against it but my taste buds say go for it!"" 
+                    </p>
+                    <p class="name my-0">
+                      <strong class="text-black fs-5">Richard</strong>
+                    </p>
+                  </div>
+
+                  <div class="col-xl-3 col-md-6 col-sm-12 testimonial__item mb-4 px-4 py-4">
+                    <p class="fw-light fs-5">
+                      "As usual Savoia was busy. A steady stream of people on a quest for bread ,cookies and what ever little or large bits of Pastry that caught the temptation of the moment. What a joy it is to visit and purchase from this heavenly place."
+                    </p>                   
+                    <p class="name my-0">
+                      <strong class="text-black fs-5">Christine</strong>
+                    </p>
+                  </div>
+
+                  <div class="col-xl-3 col-md-6 col-sm-12 testimonial__item mb-4 px-4 py-4">
+                    <p class="fw-light fs-5">
+                      "Savoia's is dependably delicious. They tend to be very efficient, but when they put out certain holiday essentials, you can still find the place by the line going down the street."
+                    </p>                   
+                    <p class="name my-0">
+                      <strong class="text-black fs-5">Rebecca</strong>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <footer class="footer py-5 bg-black">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="text-primary">MAIN MENU</h3>
+              <ul class="menu d-block list-unstyled text-white fw-light">
+                <li class="menu-item">Shop</li>
+                <li class="menu-item">Custom Creations</li>
+                <li class="menu-item">Birthdays</li>
+                <li class="menu-item">Merch</li>
+                <li class="menu-item">Blog</li>
+                <li class="menu-item">Careers</li>
+                <li class="menu-item">Sitemap</li>
+                <li class="menu-item">Contact</li>
+              </ul>
+            </div>
+
+            <div class="col-md-3">
+              <h3 class="text-primary">ORDER ONLINE</h3>
+              <ul class="menu d-block list-unstyled text-white fw-light">
+                <li class="menu-item">Bread & Pizza</li>
+                <li class="menu-item">Cakes & Cupcakes</li>
+                <li class="menu-item">Cookies</li>
+                <li class="menu-item">Pastries</li>
+                <li class="menu-item">Treats</li>
+              </ul>
+              <h3 class="text-primary">WEDDINGS</h3>
+              <ul class="menu d-block list-unstyled text-white fw-light">
+                <li class="menu-item">Information & Pricing</li>
+                <li class="menu-item">Wedding FAQs</li>
+                <li class="menu-item">Wedding Gallery</li>
+            </div>
+
+            <div class="col-md-3">
+              <h3 class="text-primary">LOCATION</h3>
+              <div class="address text-white d-flex">
+                <i class="fa-sharp fa-solid fa-location-dot text-white  me-2 fs-4"></i>
+                <p class="fw-light"> 2267 Clifford Ave <br> Rochester, NY 14609 <br> <a href="#">Get Directions</a></p>
+              </div>
+              <div class="phone text-white fw-light d-flex">
+                <i class="fa-sharp fa-solid fa-phone-volume text-white me-2 fs-4"></i>
+                <p class="fw-light">Phone: <br> (585) 482-1130</p>
+              </div>
+              <div class="email text-white fw-light d-flex">
+                <i class="fa-sharp fa-solid fa-envelope text-white me-2 fs-4"></i>
+                <small class="fw-light">Mail: <br> info@savoiapastry.com</small>
+              </div>
+              <div class="social-icon text-primary d-flex gap-3 ms-2 mt-2">
+                <i class="fa-brands fa-facebook fs-2"></i>
+                <i class="fa-brands fa-twitter fs-2"></i>
+                <i class="fa-brands fa-instagram fs-2"></i>
+                <i class="fa-brands fa-tiktok fs-2"></i>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <h3 class="text-primary">SERVING YOU</h3>
+              <p class="text-white mb-0">
+                <strong>Monday thru Friday</strong>
+              </p>
+              <p class="fw-light mb-1">8:00 am till 5:00 pm</p>
+              <p class="text-white mb-0">
+                <strong>Saturday</strong>
+              </p>
+              <p class="fw-light mb-1">9:00 am till 4:30 pm</p>
+              <p class="text-white mb-0">
+                <strong>Sunday</strong>
+              </p>
+              <p class="fw-light mb-1">9:00 am till 4:30 pm</p>
+              <p class="text-white mb-0">
+                <strong>Closed</strong>
+              </p>
+              <small class="fw-light lh-sm">
+                Memorial Day, Fourth of July, Labor Day, Christmas Day, December 26th and New Year's Day
+              </small>
+          </div>
+        </div>
+      </footer>
+      <div class="subfooter bg-primary py-2">
+        <div class="container">
+          <small class="text-black fw-light">
+            © 2022 Savoia Pastry Shoppe | Rochester, NY 14609 | 
+            <a href="#" class="text-black">585-482-1130</a>
+          </small>
+        </div>
+      </div>
+
+      <div class="footer-contact d-md-none sticky-bottom z-16 bg-white">
+        <div id="footer-contact" class="container">
+          <div class="row py-2">
+            <div class="col-6 px-2">
+              <a href="#" class="btn btn-primary fw-light w-100">Directions</a>
+            </div>
+            <div class="col-6 px-2">
+              <a href="#" class="btn btn-primary fw-light w-100">Call Us</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

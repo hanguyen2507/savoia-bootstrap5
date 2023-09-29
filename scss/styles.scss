@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    // font-size: 18px;
+    line-height: 1.5;
+}
+.container{
+    max-width: 1200px;
+}
+//Header and Nav
+.header{
+    background-color: #ebebeb;
+}
+.header-top__logo>a>img{
+    width: 150px;
+}
+.header__search-form{
+    input,
+    button{
+        border-radius: 0px;
+    }
+}
+.header__shopping-cart a{
+    border-radius: 0px;
+}
+
+.header__main{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.nav-separator{
+    display: block;
+    margin: 0 5px;
+}
+
+#navbar .nav-link{
+    font-weight: 700;
+    color: #000;
+    padding: 11px 15px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.dropdown-item{
+    padding-bottom: 11px !important;
+    // margin-left: 15px !important;
+    font-weight: 300;
+}
+
+.nav-link{
+    transition: all 0.2s ease-in-out;
+}
+
+.xxxl-screen-nav i{
+    border-radius: 50%;
+}
+.shopping-cart-xxxl{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+//Content
+.splash{
+    // height: 650px;
+    video{
+        background-color: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+        opacity: 0.8;
+    }
+}
+.splash__content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    padding: 15px;
+    p{
+        color: #fff;
+        margin: 0 auto;
+        max-width: 585px;
+        text-align: center;
+        font-weight: 300;
+        line-height: 1.5;
+        font-size: 18px;
+        word-spacing: 1.15px;
+    }
+    img{
+        margin-bottom: 45px;
+    }
+}
+
+//Story
+.story{
+    padding: 30px 0;
+}
+.story-content{
+    max-width: 500px;
+}
+
+//Services
+
+.text-container p{
+    font-size: 15px;
+    padding: 0 10px !important;
+}
+.item:hover{
+    transition: all 0.5s ease-in-out;
+    .services-img{
+        opacity: 0.6;
+    }
+}
+
+//Featured Products
+.featured-products{
+    padding: 55px 0;
+}
+.price{
+    font-size: 18px;
+}
+
+//Wedding
+.wedding{
+    position: relative;
+    background: url(../img/wedding-cake.jpg) right center no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+    background-position: top center;
+
+}
+.wedding__text-content{
+    background-color: rgba(51, 51, 51, 0.7);
+    padding: 10px 15px 15px;
+}
+
+//Testimonials
+.testimonial{
+    padding: 55px 0 70px;
+}
+.testimonial__item:nth-child(2),
+.testimonial__item:nth-child(3){
+    background-color: #f7f7f7;
+}
+
+.fa-circle{
+    border: 3px solid var(--bs-primary);
+    border-radius: 50%;
+    color: #000;
+}
+.fa-location-dot{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+
+//////////////Cakes & Cupcakes Page
+.breadcrumb-item:hover{
+    text-decoration: underline;
+    color: var(--bs-primary);
+}
+
+
+
+@media (max-width: 768px){
+    .header{
+        background-color: var(--bs-primary);
+    }
+    .navbar-header{
+        padding: 10px 20px !important;
+    }
+
+    .navbar-collapse{
+        background-color: #fff !important;
+    }
+    #navbar .nav-link{
+        padding: 11px 15px;
+    }
+    .splash__content{
+        transform: translate(-50%, -5%);
+        background-color: #000;
+        width: 100%;
+        margin-top: 150px;
+        p{
+            color: #fff;
+            margin: 0 auto;
+        }
+    }
+    .story-content{
+        max-width: 100%;
+    }
+    .text-holder{
+        margin-top: 14rem;
+        margin-bottom: 20px;
+    }
+    .img-holder{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .product-list-item-img img{
+        height: 180px;
+    }
+    .product-filter .form-control{
+        max-width: 78%;
+    }
+    .form-group{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        
+        label{
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 5px;
+        }
+        .form-control{
+            flex: 1;
+            width: 78%;
+        }
+        .form-select{
+            width: 100%;
+            display: block;
+        }
+    }
+
+}
+
+@media (min-width: 768px){
+    .active-nav{
+        background-color: var(--bs-primary);
+        color: #fff !important;
+        border-radius: 7px;
+        margin-bottom: 5px;
+        padding: 5px 10px !important;
+    }
+    .product-list-item-img img{
+        height: 157px;
+    }
+    .form-group{
+        label{
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            font-weight: 700;
+            margin-right: 10px;
+        }
+    }
+    .form-control{
+        display: inline-block;
+        width: auto;
+    }
+   
+}
+
+@media (min-width: 990px){
+    .item{
+        width: 50%;
+    }
+    .product-list-item-img img{
+        height: 212px;
+    }
+}
+
+@media (min-width: 1200px){
+    .item-holder{
+        max-width: 1550px;
+        margin: 0 auto;
+    }
+    .item{
+        width: 50%;
+    }
+    .text-container{
+        position: absolute;
+        display: block;
+        height: max-content;
+        width: 300px;
+        transition: display 0.5s ease-in;
+        opacity: 0;
+        padding: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+    }
+    .title{
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        transform: translateX(-50%);
+        width: max-content;
+        margin: 0;
+        transition: display 0.5s ease-in;
+    }
+    .item:hover{
+        transition: all 0.5s ease-in-out;
+        .text-container{
+            opacity: 1;
+        }
+        .services-img{
+            opacity: 0.6;
+        }
+        .title a{
+            opacity: 0;
+        }
+    }
+    .product-list-item-img img{
+        max-height: 250px;
+    }
+    .testimonial__item{
+        padding: 20px 25px;
+    }
+    .testimonial__item:nth-child(2),
+    .testimonial__item:nth-child(4){
+        background-color: #f7f7f7;
+    }
+    .testimonial__item:nth-child(3){
+        background-color: #fff;
+    }
+}
+

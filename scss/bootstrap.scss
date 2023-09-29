@@ -1,0 +1,16 @@
+//Font
+$font-sans-serif: 'Montserrat', sans-serif;
+$font-monospace: 'Playfair Display', serif;
+$headings-font-family: $font-monospace !default;
+$body-font-family: $font-sans-serif !default;
+$headings-line-height: 1.2;
+
+
+//Colors
+$primary: #c39d63;
+$body-color: #939393;
+
+
+$body-line-height: 1.2;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
